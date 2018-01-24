@@ -17,6 +17,7 @@ Installation instructions:
 Create the following directories and move the corresponding .py files below the main structure: 
 ./endpoints/fibonacci_service_flask.py
 ./fibonacci/fibonacci.py
+./tests/__init__.py
 
 run the setup
 python setup.py develop
