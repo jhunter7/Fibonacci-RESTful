@@ -12,18 +12,18 @@ length= the range of the Fibonacci sequence. The provided address length of 5, w
 
 If the provided length is a negative number, the service will respond with a JSON error
 
-Installation instructions:
+## Installation instructions:
 
 Create the following directories and move the corresponding .py files below the main structure: 
 ./endpoints/fibonacci_service_flask.py
 ./fibonacci/fibonacci.py
 ./tests/__init__.py
 
-run the setup
+## run the setup
 python setup.py develop
 
-Start the Microservice:
+## Start the Microservice:
 python endpoints/fibonacci_service_flask.py
 
-Execution of test cases:
+## Execution of test cases:
 python -m unittest tests
