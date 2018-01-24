@@ -14,9 +14,15 @@ If the provided length is a negative number, the service will respond with a JSO
 
 Installation instructions:
 
+Create the following directories and move the corresponding .py files below the main structure: 
+./endpoints/fibonacci_service_flask.py
+./fibonacci/fibonacci.py
+
 run the setup
 python setup.py develop
 
 Start the Microservice:
+python endpoints/fibonacci_service_flask.py
 
-
+Execution of test cases:
+python -m unittest tests
